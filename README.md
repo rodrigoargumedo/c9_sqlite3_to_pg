@@ -34,9 +34,9 @@ Copy/paste the below code, changing just the password to match the password for 
 
 Ctrl+S to save the file.
 
-Remeber the default cloud9 user 'ubuntu'? Now we're going to create the username ubuntu in postgres
+Remeber the default cloud9 user `ubuntu`? Now we're going to create the username ubuntu in postgres
 
-Start the postgresql server by running the following: sudo service postgresql start
+Start the postgresql server by running the following: `sudo service postgresql start`
 
 Access the postgres terminal, run: sudo sudo -u postgres psql
 
@@ -52,7 +52,7 @@ Run list command to verify the database is created using: `\list`
 
 Your database will be first listed and postgres will be identified as the owner.
 
-We will now set 'ubuntu' as the owner of the databases.
+We will now set `ubuntu` as the owner of the databases.
 
 Run this command for each database (should be 4 databases at minimum): `ALTER DATABASE (db name) OWNER TO ubuntu;`
 
